@@ -17,4 +17,10 @@ started searching through each content type individually
 found a suspicious filename in application/x-zip-compressed named maybeconfidential.zip     
 tried tracing it and found source and destination   
 read the challenge and realised that the person who initiated the http file transfer is the attacker   
-entered the ip address but it was wrong   
+entered the ip address but it was wrong     
+so i started going through all content types   
+found the same suspicious file in application/zip    
+traced it and found the source and destination entered them in flag   
+```
+flag - KCTF{192.168.1.7_192.168.1.8}
+```
